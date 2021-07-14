@@ -128,7 +128,7 @@ function closeOnLightboxClick(event) {
 }
 
 function onEscPress(event) {
-    if (event.target.code = "Escape") {
+    if (event.code === 'Escape') {
         closeModal()
     }
 }
